@@ -1,0 +1,426 @@
+<style>
+
+
+  @font-face {
+      font-family: 'Road-Sunshine-Italic';
+      src:url('Road-Sunshine-Italic.ttf.woff') format('woff'),
+          url('Road-Sunshine-Italic.ttf.svg#Road-Sunshine-Italic') format('svg'),
+          url('Road-Sunshine-Italic.ttf.eot'),
+          url('Road-Sunshine-Italic.ttf.eot?#iefix') format('embedded-opentype');
+      font-weight: normal;
+      font-style: normal;
+  }
+  </style>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /><meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Social Images -->
+    <meta content="" itemprop="image">
+    <meta content="" name="twitter:image">
+    <meta content="" property="og:image">
+
+    <!-- Titles -->
+    <meta content="" itemprop="name">
+    <meta content="" name="twitter:title">
+    <meta content="" property="og:title">
+    <meta content="" property="og:site_name">
+
+    <!-- Descriptions -->
+    <meta content="" name="description">
+    <meta content="" itemprop="description">
+    <meta content="" name="twitter:description">
+    <meta content="" property="og:description">
+
+    <title>Orrlia | Property Consultants   </title>
+
+    <style>
+    html {
+       overflow: hidden;
+
+
+    }
+
+    body {
+       width: 100%;
+       height: 100vh;
+       display: flex;
+ flex-direction: column;
+ margin: 0;
+ min-height: 100vh;
+
+object-fit: cover;
+
+
+    }
+
+
+
+
+    @font-face {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        src: url(Inter.woff2) format("woff2")
+    }
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background: 0 0;
+        text-decoration: none;
+        outline: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        font-weight: inherit;
+        color: inherit;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: "onum", "kern", "liga", "clig", "calt"
+    }
+
+    body, html {
+        width: 100%;
+        height: 100vh;
+        /* background: #141414; */
+background: black;
+
+
+
+      background-size: cover;
+        color: white;
+
+
+
+        font-family:Inter, sans-serif;
+    }
+
+    body {
+        display: grid;
+        grid-template-rows:1fr auto;
+
+
+    }
+
+    main {
+        padding: 0 50px;
+        align-self: center;
+        justify-self: center;
+        text-align:center;
+
+
+
+
+
+    }
+
+    h1 {
+
+        font-family: "Road-Sunshine-Italic", Helvetica, Arial, sans-serif;
+        font-size: 3000%;
+        line-height:60px;
+          mix-blend-mode: difference;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          text-align: center;
+    }
+
+    button {
+        font-variation-settings: 'wght' 400, 'slnt' 0;
+        border: none;
+        appearance: none;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 10px 30px;
+        border-radius: 9999px;
+        background: #191919;
+        color: #999;
+        margin-top: 1em;
+        transition: color .4s ease-out, background .4s ease-out;
+        cursor:pointer
+    }
+
+    button:hover {
+        background: #00f;
+        color:#fff
+    }
+
+    footer {
+
+        text-align: center;
+        padding:50px 50px;
+        font-size: 14px;
+        color:white;
+
+    }
+
+    a {
+        transition:color .4s ease-out;
+    }
+
+    a:hover {
+        color:#fff
+    }
+
+    @media (max-width: 800px) {
+        h1 {
+          font-size: 1000%;
+            line-height:50px;
+              mix-blend-mode: difference;
+        }
+
+        button {
+            font-size: 16px;
+            line-height:25px
+        }
+
+        footer {
+  padding:10px 50px;
+            font-size: 10px;
+
+  /*  line-height: 30px; */
+        }
+    }
+
+    @media (max-width: 321px) {
+        h1 {
+            font-size: 990%;
+            line-height:50px;
+              mix-blend-mode: difference;
+
+        }
+
+
+        button {
+            font-size: 16px;
+            line-height:25px
+        }
+
+        footer {
+            font-size: 10px;
+            //*  line-height: 30px; */
+        }
+    }
+
+    </style>
+
+
+<style>
+     /* Burger Menu Icon */
+         .burger-menu {
+            position: fixed; /* Fixed positioning keeps it fixed relative to the viewport */
+            top: 15px; /* Adjust top position as needed */
+            right: 20px; /* Adjust right position as needed */
+            cursor: pointer;
+            color: white;
+            font-size: 24px;
+            z-index: 1000; /* Ensures the icon is above other elements */
+        
+        }
+
+        .burger-menu .bar {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: white;
+            margin: 6px 0;
+            transition: background-color 0.4s ease;
+        }
+
+        .burger-menu.open .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .burger-menu.open .bar:first-child {
+            transform: translateY(10px) rotate(45deg);
+        }
+
+        .burger-menu.open .bar:last-child {
+            transform: translateY(-10px) rotate(-45deg);
+        }
+    </style>
+
+
+
+
+
+</head>
+<body>
+    <style>
+        /* Additional CSS for Overlay Menu */
+        .overlay-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+            display: none; /* Initially hidden */
+            z-index: 999; /* Higher z-index to ensure it's above other content */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .overlay-menu.open {
+            display: flex; /* Display when the overlay menu is open */
+        }
+
+        .menu-content {
+            text-align: center;
+            color: white;
+            font-size: 48px; /* Adjust font size as needed */
+        }
+
+        .menu-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu-content ul li {
+            margin-bottom: 20px;
+        }
+
+        .menu-content ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu-content ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Burger Menu Icon -->
+    <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Overlay Menu -->
+    <div class="overlay-menu" id="overlayMenu">
+        <div class="menu-content">
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Your main content here -->
+    <main>
+        <!-- Content of your main section -->
+    </main>
+
+    <!-- Optional JavaScript for toggleMenu() function -->
+    <script>
+        function toggleMenu() {
+            var overlay = document.getElementById('overlayMenu');
+            overlay.classList.toggle('open'); // Toggles the 'open' class on the overlay menu
+        }
+    </script>
+    <main>
+<style>
+  .homepage-video, .homepage-video video {
+  position: relative;
+}
+.homepage-video video {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% !important;
+}
+
+.text-over-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+</style>
+
+<style>
+  html, body {
+  height:100%;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+#video-wrapper {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   overflow: hidden;
+}
+
+#video-wrapper >  #player {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   cursor:pointer;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #video-wrapper >  #player {
+       height: 300%;
+       top: -100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #video-wrapper > #player {
+       width: 300%;
+       left: -100%;
+    }
+}
+</style>
+
+<div id="video-wrapper">
+    <video id="player" class="video-js vjs-default-skin" autoplay="" muted="" playsinline="" loop="" width="1880px" height="980px" poster="FF7.png" data-setup="{}">
+        <source src="sam9.mov" type='video/mp4' />
+    </video>
+</div>
+
+
+
+
+ <h1><strong>Orrlia</h1>
+
+ <section>
+<!-- <footer><br>
+   7 Bell Yard<br> London<br> WC2A 2JR<br>England<br>UK&#10;
+   hello@kubikou.com
+ </footer>-->
+    </main>
+
+
+
+
+
+
+</body>
+</html>
